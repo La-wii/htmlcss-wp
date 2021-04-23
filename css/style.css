@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inizio container */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* inizio header */
+header{
+    height: 100px;
+    background-color: rgb(230, 121, 230);
+    margin: 20px 0 20px;
+}
+
+/* inizio main */
+
+.jumbotron{
+    height: 400px;
+    background-color: rgb(225, 214, 122);
+    margin-bottom: 20px;
+}
+
+/* inizio colonne */
+.columns{
+    height: 440px;
+    background-color: rgb(0, 135, 255);
+}
+
+/* top content */
+.top-content{
+    height: 100px;
+    background-color: rgb(171, 207, 231);
+}
+
+/* left-column */
+.left-column{
+    height: 400px;
+    width: 25%;
+    margin-top: 20px;
+    background-color: rgb(171, 207, 231);
+    float: left;
+}
+
+/* middle-column */
+.middle-column{
+    height: 400px;
+    width: 46%;
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: rgb(171, 207, 231);
+    float: left;
+}
+
+/* right-column */
+.right-column{
+    height: 400px;
+    width: 25%;
+    margin-top: 20px;
+    background-color: rgb(171, 207, 231);
+    float: left;
+}
+
+/* fine parte flottante */
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* inizio footer */
+footer{
+    background-color: rgb(136, 0, 254);
+    height: 50px;
+    margin-top: 20px;
+}
