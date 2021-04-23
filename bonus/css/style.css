@@ -63,8 +63,6 @@ nav a{
 
 }
 
-
-
 /* top content */
 .top-content{
     height: 100px;
@@ -98,38 +96,6 @@ nav a{
 .left-column p{
     color: rgb(184, 184, 184);
 }
-
-/* inizio sezione autore */
-.author{
-    line-height: 30px;
-    height: 30px;
-    margin-top: 10px;
-}
-.author img{
-    height: 35px;
-    width: 35px;
-    vertical-align: middle;
-}
-
-.author-name{
-    color: rgb(184, 184, 184);
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.date{
-    color: rgb(184, 184, 184);
-    font-size: 14px;
-    margin-right: 5px;
-}
-
-.time{
-    color: rgb(184, 184, 184);
-    font-size: 14px;
-    border-left: 1px solid rgb(184, 184, 184);
-    padding-left: 5px;
-}
-/* fine sezione autore */
 
 /* middle-column */
 .middle-column{
@@ -178,13 +144,48 @@ nav a{
 .right-column p{
     color: rgb(184, 184, 184);
 }
-/* fine parte flottante */
 
+/* inizio sezione autore */
+.author{
+    line-height: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.author img{
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+}
+
+.author-name{
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.date{
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.time{
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    border-left: 1px solid rgb(184, 184, 184);
+    padding-left: 5px;
+}
+/* fine sezione autore */
+
+
+/* inizio parte flottante */
 .clearfix::after{
     content: '';
     display: table;
     clear: both;
 }
+/* fine parte flottante */
+
 
 /* inizio footer */
 footer{
