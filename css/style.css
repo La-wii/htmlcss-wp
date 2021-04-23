@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* inizio container */
 .container{
     width: 80%;
@@ -43,6 +47,20 @@ nav a{
     height: 450px;
     margin-bottom: 20px;
 }
+
+.jumbotron h3{
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.jumbotron p{
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+
+}
+
 
 /* inizio colonne */
 .columns{
