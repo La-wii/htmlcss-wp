@@ -12,11 +12,15 @@
 
 /* inizio header */
 header{
-    height: 100px;
-    background-color: rgb(230, 121, 230);
     margin: 20px 0 20px;
 }
 
+.logo{
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+    border-right: 1px solid rgb(184, 184, 184);
+}
 /* inizio main */
 
 .jumbotron{
