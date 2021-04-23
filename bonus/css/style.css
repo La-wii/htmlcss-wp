@@ -186,15 +186,7 @@ nav a{
 }
 /* fine parte flottante */
 
-
 /* inizio footer */
 footer{
-    height: 50px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.footer-text::after{
-    content: '\2665';
-    color: red;
+    height: 100px;
 }
