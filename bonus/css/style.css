@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* inizio container */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* inizio header */
+header{
+    margin: 20px 0 20px;
+}
+
+.logo{
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+    border-right: 1px solid rgb(184, 184, 184);
+    margin-bottom: 10px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+}
+
+/* inizio main */
+
+.jumbotron{
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    height: 450px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.jumbotron h3{
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+    padding-top: 300px;
+}
+
+.jumbotron p{
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+
+}
+
+
+
+/* top content */
+.top-content{
+    height: 100px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.top-content span{
+    color: rgb(184, 184, 184);
+}
+
+/* inizio colonne - prima riga */
+/* left-column */
+.left-column{
+    width: 30%;
+    margin-top: 20px;
+    float: left;
+}
+
+.left-column img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    filter: contrast(0.6);
+}
+
+.left-column h4{
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.left-column p{
+    color: rgb(184, 184, 184);
+}
+
+/* middle-column */
+.middle-column{
+    width: 30%;
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    float: left;
+}
+
+.middle-column img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    filter: contrast(0.6);
+}
+
+.middle-column h4{
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.middle-column p{
+    color: rgb(184, 184, 184);
+}
+
+/* right-column */
+.right-column{
+    width: 30%;
+    margin-top: 20px;
+    float: left;
+}
+
+.right-column img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    filter: contrast(0.6);
+}
+
+.right-column h4{
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.right-column p{
+    color: rgb(184, 184, 184);
+}
+/* fine parte flottante */
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* inizio footer */
+footer{
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-text::after{
+    content: '\2665';
+    color: red;
+}
