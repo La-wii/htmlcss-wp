@@ -38,8 +38,9 @@ nav a{
 /* inizio main */
 
 .jumbotron{
-    height: 400px;
-    background-color: rgb(225, 214, 122);
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    height: 450px;
     margin-bottom: 20px;
 }
 
