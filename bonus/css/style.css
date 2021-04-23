@@ -76,7 +76,6 @@ nav a{
     color: rgb(184, 184, 184);
 }
 
-/* inizio colonne - prima riga */
 /* left-column */
 .left-column{
     width: 30%;
@@ -99,6 +98,37 @@ nav a{
 .left-column p{
     color: rgb(184, 184, 184);
 }
+
+/* inizio sezione autore */
+.author{
+    line-height: 30px;
+    height: 30px; 
+}
+.author img{
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+}
+
+.author-name{
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.date{
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.time{
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    border-left: 1px solid rgb(184, 184, 184);
+    padding-left: 5px;
+}
+/* fine sezione autore */
 
 /* middle-column */
 .middle-column{
