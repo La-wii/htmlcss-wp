@@ -156,7 +156,12 @@ nav a{
 
 /* inizio footer */
 footer{
-    background-color: rgb(136, 0, 254);
     height: 50px;
     margin-top: 20px;
+    text-align: center;
+}
+
+.footer-text::after{
+    content: '\2665';
+    color: red;
 }
